@@ -1,6 +1,6 @@
-$(window).load(function() {
+$(window).ready(function() {
 	var numThumbnails = 6;				// number of thumbnails to show
-	var pageSize = 6;					// number of thumbnails to scroll per page
+	var pageSize = 6;					// number of thumbnails to scroll per page (e.g. 6 = scroll entire page)
 	var autoplaySpeed = 3000;			// number of ms to wait between auto-scroll, or false for off
 
 	$('.website-multi-image-main').slick({

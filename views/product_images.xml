@@ -6,7 +6,7 @@
             <field name="inherit_id" ref="product.product_template_only_form_view"/>
             <field name="arch" type="xml">
                    <xpath expr="//notebook[1]" position="inside">
-	                   <page string="Product Images" name="website_mutli_image">
+	                   <page string="Product Images" name="website_multi_image">
 						   <field name="images" context="{'default_name': name}">
 						        <tree editable="bottom">
 				                    <field name="sequence" widget="handle"/>
@@ -25,7 +25,7 @@
             <field name="inherit_id" ref="product.product_normal_form_view"/>
             <field name="arch" type="xml">
                 <xpath expr="//notebook[1]" position="inside">
-                    <page string="Product Images" name="website_mutli_image">
+                    <page string="Product Images" name="website_multi_image">
 					    <field name="images" mode="kanban" context="{'default_name': name}">
 							<kanban>
 							    <field name="name"/>
